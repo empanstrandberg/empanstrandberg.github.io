@@ -1,21 +1,21 @@
 
-@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');body{
-  font-family: "Patrick Hand";
-  font-size: 200px;
+  font-family: "Special Elite";
 }
 a:hover{
   color: #56F0C6;
 }
 .meny{
+  font-family: "Special Elite";
   display: flex;
-  margin: 30px;
+  margin: 40px;
+  margin-top: 15px;
   margin-bottom: 10px;
   flex-direction: row;
   justify-content: center;
 }
 a{
+  font-family: "Special Elite";
   display: flex;
   color: #000000;
   font-size: 14px;
@@ -34,6 +34,7 @@ a{
   align-items: center;
 }
 h1{
+  font-family: "Special Elite";
   color:#f7db76;
   padding: 10px;
   margin: 0 auto 0 auto;
@@ -41,16 +42,26 @@ h1{
   text-align: center;
 }
 .my-text{
-  font-size: 100px;
   width: 33%;
+  font-size: 50px;
 }
 .button{
-  font-size: 50px;
   font-weight: bold;
-  color: #000000;
+  font-size: 50px;
   justify-content: center;
   margin-top: 100px;
-  margin-bottom: 160px;
+  margin-bottom: 130px;
+  background-color: #000000;
+  border: none;
+  color: #ffffff;
+  transition: 0.3s;
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+a:hover{
+  color: #f7db76;
 }
 .second_container{
   display: flex;

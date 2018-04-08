@@ -9,14 +9,13 @@ a:hover{
   font-family: "Special Elite";
   display: flex;
   margin: 40px;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
   flex-direction: row;
   justify-content: center;
 }
 a{
   font-family: "Special Elite";
-  display: flex;
   color: #000000;
   font-size: 14px;
   text-decoration: none;
@@ -45,25 +44,26 @@ h1{
   width: 33%;
   font-size: 50px;
 }
+.buttondiv{
+  text-align: center;
+}
 .button{
   font-weight: bold;
-  font-size: 50px;
-  justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 130px;
+  font-size: 35px;
+  margin: 80px auto;
   background-color: #000000;
   border: none;
   color: #ffffff;
   transition: 0.3s;
-  display: inline-block;
-  text-align: center;
   padding: 20px;
+  display: inline-block;
 }
 
 a:hover{
-  color: #f7db76;
+  color: #58F09C;
 }
 .second_container{
+  margin: 80px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -79,8 +79,9 @@ a:hover{
 }
 @media only screen and (max-width: 760px) {
   .meny{
-    flex-direction: column;
+    flex-direction: row;
     font-size: 10px;
+    margin: 3px;
   }
   .logotyp{
     height: 100px;
@@ -92,7 +93,6 @@ a:hover{
     font-size: 20px;
   }
   .second_container{
-    height: 40px;
     flex-direction: column-reverse;
   }
   }

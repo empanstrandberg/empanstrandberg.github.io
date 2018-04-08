@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+body{
+  font-family: "Special Elite";
+  font-size: 50px;
+}
+.my-text {
+  font-size: 20px;
+  margin: 0 auto 0 auto;
+  }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: #000000;
+  font-weight: lighter;
+  padding: 50px;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button{
+  font-size: 20px;
+  color: #f7db76;
+  margin: 0 auto 0 auto;
+}
+h1{
+  padding: 10px;
+  margin: 0 auto 0 auto;
+  color:#f7db76;
+  font-weight: lighter;
+}
+.logo{
+  height: 330px;
+}
+.logodiv{
+height: 290px;
+}
+.ginger{
+  height: 150px;
+}
+.rot{
+  height: 150px;
+}
+.instabild{
+  height: 200px;
+}
+.outer_container {
+  /*flexbox*/
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: auto;
+
+}
+@media only screen and (min-width: 760px) {
+	.my-text {
+		font-size: 50px;
+	}
+  .button {
+    font-size: 50px;
+  }
+  a {
+    font-size: 17px;
+    margin: 20px;
+    }
+  }
+}

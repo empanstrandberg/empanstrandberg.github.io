@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+  font-family: "Special Elite";
+  font-size: 20px;
+
+h1{
+  padding: 10px;
+  margin: 0 auto 0 auto;
+  color:#f7db76;
+  font-weight: lighter;
+  font-size: 10px;
+}
+.us {
+  display: flex;
+  padding: 30px;
+  height: 330px;
+}
+@media only screen and (max-width: 760px) {
+  .us{
+    height: 10px;
+  }
+}
